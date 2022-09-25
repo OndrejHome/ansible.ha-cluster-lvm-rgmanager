@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: ha-cluster-lvm-rgmanager
   author: Ondrej Faměra
   description: Setup HA-LVM (tagging/clvmd) on rgmanager cluster for EL5/EL6
   license: GPLv3
