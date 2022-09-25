@@ -1,8 +1,6 @@
 # type of HA-LVM, possible options are:
 # on EL6 and EL7:
 # -'tagging' (default) or 'clvm'
-# on EL 8 and EL9:
-# - 'systemid' or 'lvmlockd'
 HALVMtype: "tagging"
 
 # List of localy activated VGs
@@ -14,9 +12,6 @@ HALVMtype: "tagging"
 # - some_vg2
 # when specified in inventory, then
 # 192.168.xx.xx local_vg_list="['some_vg1','some_vg2']"
-
-# (EL6 only) Type of cluster that will use this HA-LVM. Either 'pacemaker' or 'rgmanager'
-# cluster_type: 'rgmanager'
 
 # (RHEL only) enable repositories(channels) containing the packages needed.
 # by default only Resilient Storage is enabled when CLVMD should be used
