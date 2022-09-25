@@ -7,7 +7,3 @@
   notify:
     - rebuild initramfs
     - rebuild initrd
-
-- name: Include variables for rgmanager clusters on RHEL 5/6
-  include_vars: rgmanager.yml
-  when: ansible_distribution_major_version in ["5", "6"]

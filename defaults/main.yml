@@ -1,5 +1,5 @@
 # type of HA-LVM, possible options are:
-# on EL6 and EL7:
+# on EL5 and EL6:
 # -'tagging' (default) or 'clvm'
 HALVMtype: "tagging"
 

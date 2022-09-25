@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Ondrej Faměra
-  description: Setup HA-LVM (tagging/clvmd) on rgmanager cluster for EL
+  description: Setup HA-LVM (tagging/clvmd) on rgmanager cluster for EL5/EL6
   license: GPLv3
   min_ansible_version: 2.4
   platforms:
