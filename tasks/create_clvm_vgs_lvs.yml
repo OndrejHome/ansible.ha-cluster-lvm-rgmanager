@@ -13,6 +13,7 @@
     vg: "{{ item.0.name }}"
     lv: "{{ item.1.name }}"
     size: "{{ item.1.size }}"
+    opts: --config "activation{volume_list=['{{ item.0.name }}']}"
   with_subelements:
     - "{{ clvm_vgs }}"
     - lvs
