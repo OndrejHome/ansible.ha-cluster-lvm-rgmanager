@@ -3,6 +3,7 @@
   lvg:
     vg: "{{ item.name }}"
     pvs: "{{ item.pvs }}"
+    vg_options: -cn
   notify:
     - deactivate VG
   register: vg_created
